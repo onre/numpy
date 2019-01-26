@@ -160,7 +160,7 @@ import shutil
 
 # Determine number of bits
 import platform
-_bits = {'32bit': 32, '64bit': 64}
+_bits = {'n32bit': 32, '32bit': 32, '64bit': 64}
 platform_bits = _bits[platform.architecture()[0]]
 
 
